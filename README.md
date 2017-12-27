@@ -172,7 +172,7 @@ $("#btn").show();
 $("#btn").hide();
 
 // toggle show/hide
-if($("#btn").toggle()
+$("#btn").toggle()
 ```  
 <br/>
 

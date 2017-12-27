@@ -31,8 +31,9 @@ The Jlite core has commonly used methods from jQuery to keep it small & lightwei
 Lot of the additional functionaly can be written in pure javascript see [references](#references).
 But if you need additional methods it is very easy to implement
 
-write your addtional missing methods in jlite.extra.js see example below
+Write your own implementation for any additional methods as required in jlite.extra.js 
 ```javascript
+// see example in jlite.extra.js
 $.fn.toggleClass = function (className) {
     this.each(function (i, el) {
         var classes = el.className.split(" "); 

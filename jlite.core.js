@@ -19,6 +19,8 @@
         }
         else if (typeof selector === "string")
             elements = document.querySelectorAll(selector);
+        else if (typeof selector === "function")
+            this.ready(selector); // shorthand dom ready func
         else if (typeof selector === "object")
             elements = [selector];
 

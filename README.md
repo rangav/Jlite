@@ -20,6 +20,7 @@ The following methods are suppported by jlite core with similar api to jQuery
 * [removeClass()](#addclass)
 * [hasClass()](#addclass)
 * [attr()](#attr)
+* [prop()](#prop)
 * [css()](#css)
 * [show()](#show)
 * [hide()](#show)
@@ -147,6 +148,16 @@ $("#btn").attr("id");
 
 // set attribute value
 $("#btn").attr("id","btn-new");
+```
+
+#### prop()
+<a name="prop"></a>
+```javascript
+// get prop value
+$("#input").prop("value");
+
+// set prop value
+$("#input").prop("value","jlite");
 ```
 
 #### css()

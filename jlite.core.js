@@ -99,6 +99,17 @@
         return this;
     }
 
+    $.fn.prop = function (name, val) {
+        if (val !== undefined)
+            this.each(function (i, el) {
+                el[name] = val;
+            });
+        else if (this.length > 0)
+            return this[0][name];
+
+        return this;
+    }
+
     $.fn.css = function (name, val) {
         if (val !== undefined)
             this.each(function (i, el) {

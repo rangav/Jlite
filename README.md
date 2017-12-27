@@ -5,7 +5,7 @@ Jlite supports all major browsers Chrome, Firefox, Safari and Internet Explorer 
 
 ### Using Jlite
 ```javascript
-<script src="/path/jlite.core.js ></script>
+<script src="/path/jlite.core.js" ></script>
 // your custom script here
 ```
 
